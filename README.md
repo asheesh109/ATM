@@ -1,70 +1,57 @@
- 🎯 Quiz Game System
+# ATM Simulator 🏧
 
-This repository contains a **Java-based Quiz Game System** developed as part of my internship at **Oasis Infobyte**. This project showcases my ability to design, develop, and integrate Java applications with MySQL databases using JDBC.
+A desktop ATM simulation application built with **Java Swing** and **MySQL** that replicates real-world banking operations with a secure GUI interface.
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![Swing](https://img.shields.io/badge/Swing-GUI_Application-blue)
+
+## ✨ Features
+
+- **🔐 Secure Login** - Card number and PIN authentication
+- **💰 Balance Inquiry** - Real-time account balance checking
+- **🏧 Cash Withdrawal** - Simulated cash dispensing
+- **💳 Cash Deposit** - Account deposit functionality
+- **📊 Transaction History** - View past transactions
+- **🔄 Fund Transfer** - Transfer between accounts
+- **📄 Receipt Generation** - Print transaction receipts
+- **🔒 Account Security** - PIN change option
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Java JDK 8+
+- MySQL Server
+- MySQL Connector/J
+
+### Installation Steps
+1. Clone the repository
+2. Import the database schema
+3. Configure database connection
+4. Run the main application class
+
+## 🎯 How to Use
+1. Enter your card number and PIN
+2. Select from available ATM services
+3. Perform transactions (withdraw, deposit, transfer)
+4. View transaction history
+5. Exit and collect receipt (if needed)
+
+## 🛠️ Technologies
+- **Java Swing** - User interface
+- **MySQL** - Database management
+- **JDBC** - Database connectivity
+- **AWT** - GUI components
+
+## 📞 Contact
+**Ashish Parab**  
+📧 ashishparab03@gmail.com  
+🔗 [Portfolio](https://devfolio-two-xi.vercel.app/)  
+💼 [LinkedIn](https://www.linkedin.com/in/ashishparab03/)
+
+## 📜 License
+MIT License - See LICENSE file for details.
 
 ---
-
- 📌 Project Overview
-
-✅ **Quiz Game System**  
-- Presents multiple-choice questions  
-- Tracks user scores  
-- Ensures smooth user interaction through a structured Java program  
-- Uses a database to store and retrieve quiz questions  
-
----
-
- 📂 Project Structure
-
- OIBSIP_ATM_interface/ ├── src/ (Java source files) │ ├── ATM.sql (Database dump for ATM system) │── README.md
-
- 
----
-
-## 🛠 Setup Instructions
-
-1️⃣ **Clone the Repository**  
-   
-   git clone https://github.com/asheesh109/OIBSIP_ATM_interface.git
-
-2️⃣ Import the Project into IntelliJ IDEA
-
-Open IntelliJ IDEA and select Open
-Navigate to the project folder and open it
-
-3️⃣ Set Up the Database
-Import the database using the provided .sql file:
-mysql -u root -p < ATM.sql
-
-Ensure MySQL is installed and running.
-
-4️⃣ Run the Project
-
-Compile and execute the Java files inside the src folder.
-
-📜 Technologies Used
-Java (JDK 17+) – Core programming language
-MySQL – Database for storing ATM transactions
-JDBC – Connecting Java application to the database
-Git & GitHub – Version control and project management
-IntelliJ IDEA – Integrated Development Environment (IDE)
-
-🎯 Internship Learning Outcomes
-This project helped me gain hands-on experience in:
-✔ Java Application Development – Implementing core Java concepts, OOP principles, and exception handling.
-✔ Database Integration – Connecting Java with MySQL using JDBC and executing SQL queries.
-✔ Problem-Solving & Debugging – Identifying and fixing issues in real-time applications.
-✔ Version Control (Git & GitHub) – Managing and tracking project changes efficiently.
-
-📧 Contact Information
-For any queries or discussions, feel free to reach out:
-
-📩 Email: [ashishparab03@gmail.com]
-🔗 GitHub: asheesh109
-🌐 LinkedIn: www.linkedin.com/in/ashishparab03
-
-✅ This project was developed as part of my internship at [Oasis Infobyte].
-💡 Looking forward to more exciting projects and learning opportunities!
-   
-
-
+**Developed by Ashish Parab**  
+*A practical simulation of banking operations*
